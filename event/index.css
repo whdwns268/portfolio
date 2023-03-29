@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* 상단메뉴 */
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+.topmenu {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    width: 250px;
+    height: inherit;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.logocss{
+    width: 120px;
+    height: 60px;
+    object-fit: contain;
+}
+.smenu {
+    display: inline;
+    height: inherit;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.smenu > ul{
+    display: inline;
+    height: inherit;
+}
+.smenu > ul > li {
+    cursor: pointer;
+    width: 100px;
+    height: inherit;
+    text-align: center;
+    line-height: 100px;
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    float: left;
+}
+.smenu > ul > li:nth-of-type(5){
+    color: red;
+}
+.smenu > ul > li:hover{
+    color: red;
+}
+/* 상단메뉴 끝 */
+
+/* 이벤트 */
+.event{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    background-color: black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ad{
+    max-width: 1920px;
+    position: absolute;
+    top:-50px;
+}
+
+.event_info {
+    border-radius: 100% 0 100% 0;
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    z-index: 1;
+    top:130px;
+    left:50%;
+    margin-left: -400px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.5); 
+}
+
+.info{
+    width: 700px;
+    height: inherit;
+}
+
+.info > ol {
+    width: inherit;
+    height: auto;
+}
+.info > ol > li{
+    width: inherit;
+    text-align: center;
+    margin-bottom: 5px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+}
+.info > ol > li:nth-of-type(1){
+    height: 370px;
+    text-align: center;
+}
+.avt_logo{
+    width: 50%; 
+    object-fit: contain;
+}
+
+.in { 
+    background-color: rgba(255,255,255,0.8);
+    width: 700px;
+    height: 50px;
+    box-sizing: border-box;
+    border:1px solid #2d77f5;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-indent: 5px;
+}
+.ckcss{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    vertical-align: -4px;
+    
+}
+.btn{
+    width: 700px;
+    height: 50px;
+    background-color: #2d77f5;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* 이벤트 끝 */
+
+/* 카피라이터 시작 */
+.copy{
+    width: 100%;
+    height: 180px;
+    background-color: #ccc;
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+}
+.copyview{
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+.copyview > ul {
+    width: inherit;
+    height: 60px;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box;
+}
+.copyview > ul > li {
+    cursor: pointer;
+    width: 100px;
+    height: inherit;
+    line-height: 60px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    float: left;
+    text-align: center;
+}
+.copyview > ul > li:nth-of-type(4){
+    width: 200px;
+}
+.copyview > ul > li:nth-of-type(6){
+    width: 150px;
+    font-weight: 700;
+}
+.copyview > ul > li:nth-of-type(8){
+    width: 150px;
+}
+
+.copy_text{
+    width: 1000px;
+    height: 120px;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 20px;
+    position: relative;
+    left:20px;
+    top:20px;
+}
+/* 카피라이터 종료 */

@@ -1,0 +1,32 @@
+header{
+    margin: 0 auto;
+    width: 1200px;
+    height: 35px;
+    line-height: 35px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+
+header > div{
+    width: 75px;
+    height: 35px;
+    background-image: url("../images/tving_logo.png");
+    float: left;
+}
+
+header > ul{
+    width: 1200px;
+    height: inherit;
+    position: absolute;
+    left: 100%;
+    margin-left: -315px;
+}
+
+header > ul > li{
+    height: inherit;
+    float: left;
+    margin-left: 10px;
+}
+
+

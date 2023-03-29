@@ -1,0 +1,57 @@
+<?php
+    $v = date("YmdHis");
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=Edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCN</title>
+    <link rel="icon" href="data:,">
+    <script src="./jquery.js"></script>
+    <script src="./ocnindex1.js?v=<?php echo $v?>"></script>
+    <link rel="stylesheet" type="text/css" href="./css/ocnindex1.css?v=<?php echo $v?>">
+</head>
+<body>
+<!--상단-->    
+    <header>
+        <?php include "./top.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/top.css?v=<?php echo $v?>">
+    </header>
+    <!--메뉴-->
+    <nav>
+        <?php include "./menu.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/menu.css?v=<?php echo $v?>">
+    </nav>
+    <main>
+    <!--배너-->
+    <section>
+        <?php include "./banner.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/banner.css?v=<?php echo $v?>"></section>
+    <!--weekday-->
+    <section><?php include "./weekday.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/weekday.css?v=<?php echo $v?>"></section>
+    <!--최신동영상-->
+    <section>
+        <?php include "./onair.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/onair.css?v=<?php echo $v?>"></section>
+    <!--ad배너-->
+    <aside>
+        <?php include "./ad.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/ad.css?v=<?php echo $v?>">
+    </aside>
+    <!--new contents-->
+    <section>
+        <?php include "./new_content.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/new_content.css?v=<?php echo $v?>">
+    </section>
+    </main>
+    <!--copyright + 공지사항-->
+    <footer>
+        <?php include "./copyright.html"?>
+        <link rel="stylesheet" type="text/css" href="./css/copyright.css?v=<?php echo $v?>">
+    </footer>
+</body>
+</html>

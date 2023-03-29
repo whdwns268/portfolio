@@ -1,0 +1,11 @@
+.onair{
+    width: 1200px;
+    height: 450px;
+    background-color: aqua;
+}
+
+.onair_title{
+    width: 890px;
+    height: 37px;
+    float: left;
+}
