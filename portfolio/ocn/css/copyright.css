@@ -1,0 +1,85 @@
+@charset "utf-8";
+.copyright{
+    width: 1200px;
+    height: 155px;
+    margin: 0 auto;
+}
+.copyright > div{
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 3px;
+}
+.copyright > div:nth-of-type(2){
+    width: 620px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.copyright > div:nth-of-type(2) > ul{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+ 
+}
+.copyright > div:nth-of-type(2) > ul >li{
+    width: inherit;
+    height: inherit;
+    font-size: 13px;
+    color: #9F9F9F;
+    font-family: 'Noto Sans KR', sans-serif;
+   
+}
+.copyright > div:nth-of-type(3){
+    position: relative;
+    width: 480px;
+    font-weight: normal;
+}
+.copyright > div:nth-of-type(4){
+    width: 1200px;
+    height: 110px;
+    padding: 5px;
+    background-color: #cccccc;
+    text-align: center;
+    font-size: 12px;
+}
+.copyright > div:nth-of-type(4) > p{
+    height: 30px;
+    line-height: 30px;
+}
+.corp{
+    position: relative;
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    left: 110px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+    text-indent: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.corp > ul{
+    width: inherit;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    bottom: 34px;
+    
+}
+.corp > em{
+    font-style: normal;
+    position: absolute;
+    right: 6px;
+    top: 0;
+}
+.confirm{
+    cursor: pointer;
+}

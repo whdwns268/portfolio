@@ -1,0 +1,47 @@
+<?php
+    $v = date("YmdHis");
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D조 TEST</title>
+    <script src="./jquery.js"></script> <!-- v2.1.4 (모바일호환용)-->
+    <script src="./jquery-ui.js"></script>
+    <!--<script src="./jquery.mobile-1.4.5.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="./jquery-ui.css?v=<?php echo $v?>">
+    <link rel="stylesheet" type="text/css" href="./index.css?v=<?php echo $v?>">
+    <!--index css : 폰트관련된 내용은 여기서 확인-->
+    <link rel="stylesheet" type="text/css" href="./default.css?v=<?php echo $v?>">
+    <!--디폴트 css : ul,ol,span등 기본속성등록-->
+</head>
+<body>
+    <!--
+        로그인,회원가입
+    -->
+    <!-- 340 ~ 580 까지 사이즈 notnsansKR-->
+    <header><?php include "top.html"?></header>                   
+    <span class="bkscreen" id="bkscreen"></span>
+    <aside><?php include "login.html"?></aside>
+    <aside><?php include "join.html"?></aside>
+    <nav><?php include "menu.html"?></nav>
+    <aside><?php include "category.html"?></aside>
+    <section><?php include "search.html"?></section>
+    <main>
+        <section><?php include "banner.html"?></section>
+        <section><?php include "eventbanner.html"?></section>
+
+        <section>
+            <article><?php include "new_product.html"?></article>
+            <article><?php include "best_product.html"?></article>
+        </section>
+        
+        <section><?php include "review.html"?></section>
+    </main>
+
+    <footer><?php include "copyright.html"?></footer>
+</body>
+</html>

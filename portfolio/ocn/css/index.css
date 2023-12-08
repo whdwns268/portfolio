@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import url("./top.css?v=1");
+@import url("./menu.css");
+@import url("./banner.css?v=3");
+@import url("./week.css");
+@import url("./onair.css");
+@import url("./ad.css?v=1");
+@import url("./new_content.css?v=1");
+@import url("./copyright.css?v=1");
+@import url("./user_agree.css");
+@import url("./user_member.css?v=2");
+@import url("./user_login.css?v=3");
+.foot1{
+    width: 100%;
+    height: 155px;
+    border-top: 1px solid black;
+    margin: 0 auto;
+}

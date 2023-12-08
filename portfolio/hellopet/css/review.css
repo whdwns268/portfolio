@@ -1,0 +1,63 @@
+.re_box{
+    margin-top:20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(236, 234, 234);
+    
+}
+
+.re_box > span{
+    line-height: 40px;
+    margin-left: 5%;
+    float:left;
+}
+
+.re_box2{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.re_ul{
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin-left: 25%;
+    position: relative;
+}
+
+.re_ul > li {
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.re_box > em{
+    margin-top:10px;
+    width: 45px;
+    height: 20px;
+    background-color: rgb(127, 127, 127);
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+    float:right;
+    margin-right: 5%;
+}
+
+.introbox{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    bottom: 20px;
+    margin-top:20px;
+}
+
+.introbox > span > img{
+    width: inherit;
+    height: 150px;
+}

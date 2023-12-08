@@ -1,0 +1,82 @@
+@charset "uft-8";
+.lgsp{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 375px;
+    display: none;
+}
+
+.lgf{
+    position: relative;
+    max-width: 480px;
+    min-width: 300px;
+    height: 375px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+.lgf>span:nth-of-type(2){
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 27px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    right: 0px;
+    top: 0px;
+}
+
+.lgf>span:nth-of-type(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+.lgf>ul>li{
+    max-width: 400px;
+    min-width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.lglb{
+    max-width: 480px;
+    min-width: 300px;
+    margin-top: 20px;
+    height: 20px;
+}
+.lglb>div{
+    height: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;    
+}
+.lga{
+    width: 100%;
+    height: 30px;
+    text-indent: 10px;
+}
+.lgsp>input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.lgf>ul:nth-of-type(2)>li{
+    background-color: rgba(224,224,224);
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.lgf>ul:nth-of-type(2)>li:nth-of-type(1){
+    background-color: rgb(243,156,18);
+    height: 45px;
+    line-height: 45px;
+}
+
+

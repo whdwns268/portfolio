@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../css/login.css?v=3">
+<script src="../js/login.js?V=2" defer></script>  
+<div class="lgsp" id="lgsp">
+<form class="lgf" method="post" id="logform" action="./m_login.php">
+    <input type="hidden" name="m_key" value="mobiles">
+    <span>MEMBER LOGIN</span>
+    <ul>
+    <li><input class="lga" type="text" placeholder="아이디를 입력하세요" name="m_id"></li>
+    <li><input class="lga" type="password" placeholder="패스워드를 입력하세요" name="m_pw"></li>
+    </ul>
+    <label class="lglb" for="lgc"><input type="checkbox" id="lgc" onclick="lgsv(this.checked)">아이디 저장</label>
+    <ul>
+    <li class="lgbtn" onclick="log(1)">LOGIN</li>
+    <li class="lgbtn" onclick="log(2)">회원가입</li>
+    <li class="lgbtn" onclick="log(3)">아이디 / 비밀번호 찾기</li>
+    </ul>
+    <span onclick="log(4)">X</span>
+</form>
+</div>

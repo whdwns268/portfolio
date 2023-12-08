@@ -1,0 +1,27 @@
+<?php
+    include "user.php";
+?>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/top.css?v=4"> 
+<div class="top">
+    <div class="logo"></div>
+    <ul class="category">
+        <li class="logout"><a href="./login.html">로그인</a></li> 
+        <li class="logout"><a href="membership.html">티빙 회원가입</a></li> 
+        <li class="login" style="display: none;"><span id="username"></span> 님 환영합니다. <a href="./logout.php">[로그아웃]</a></li>
+        <li><a href="coupon.html">이용권 구매</a></li>
+        <li>프로그램 검색</li>
+    </ul>
+</div>
+<script>
+    var username = "<?php echo $aname?>";
+    if(username!=""){
+        var logout = document.getElementsByClassName("logout");
+        var login = document.getElementsByClassName("login");
+        logout[0].style.display = "none"; 
+        logout[1].style.display = "none";
+        login[0].style.display = "block"; 
+        document.getElementById("username").innerText = username;
+    }
+   //console.log(username);
+</script>

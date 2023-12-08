@@ -1,0 +1,34 @@
+@charset "uft-8";
+.tosp{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding: 10px;
+}
+.tosp>div{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.tosp>div:nth-last-of-type(1){
+    position: absolute;
+    background-image: url("../images/category.png");
+    background-size: contain;
+    left: 10;
+    
+}
+.tosp>div:nth-last-of-type(2){
+    width: 150px;
+    position: absolute;
+    background-image: url("../logo/hellopet_logo_en.png");
+    background-size: contain;
+    left: 50%;
+    margin-left: -75px;
+    
+}
+.tosp>div:nth-last-of-type(3){
+    position: absolute;    
+    background-image: url("../images/search.png");
+    background-size: contain;
+    right: 10px;
+}

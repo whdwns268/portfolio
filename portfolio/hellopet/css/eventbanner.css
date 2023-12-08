@@ -1,0 +1,10 @@
+@charset "uft-8";
+.ebsp{
+    width: 100%;
+    height: 360px;
+}
+.ebsp>img{
+    width: 50%;
+    height: 180px;
+    float: left;
+}

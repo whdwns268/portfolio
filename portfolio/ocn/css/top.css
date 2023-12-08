@@ -1,0 +1,30 @@
+@charset "utf-8";
+.top{
+    width: 1200px;
+    height: 35px;
+    margin: 0 auto;
+}
+.logo{
+    width: 80px;
+    height: 35px;
+    background-image: url("../images/tving_logo.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.category{
+    float: right;
+}
+.category > li{
+    height: inherit;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 35px;
+    float: left;
+    margin-right: 10px;
+}
+.category > li > span{
+   float: left;
+}
+.category > label:nth-of-type(4){
+    margin-right: 0;
+}

@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/user_login.css?v=3">
+<script src="./js/user_login.js?v=2"></script>
+<input type="hidden" name="key" value="ocn">
+<div class="logins">
+    <span class="agree_left">MEMBER-LOGIN</span>
+    <form id="loginf" method="post" action="./loginok.php" onsubmit="return logins()"enctype="application/x-www-form-urlencoded">
+        <input type="hidden" name="key" value="ocn">
+        <ul class="loginul">
+            <li class="loginleft">
+                <span>아이디</span>
+                <span><input type="text" name="user_id"></span>
+                <span>비밀번호</span>
+                <span><input type="password" name="user_pw"></span>
+            </li>
+            <li>
+                <input type="submit" class="loginbtn" value="로그인">
+            </li>
+            <li class="loginck"><label><input type="checkbox" id="idck" onclick="idckbox(this.checked)"> 아이디 저장하기</label></li>
+            <li>
+                <span onclick="memberin()">회원가입</a></span>
+                <span>아이디 찾기</span>
+                <span>비밀번호 찾기</span>
+            </li>
+        </ul>
+    </form>
+    
+    <ul class="loginul nomember">
+        <li>비회원 결제내역 조회하기</li>
+        <li class="loginleft">
+            <span>결제자명</span>
+            <span><input type="text" name="user_id"></span>
+            <span>결제번호</span>
+            <span><input type="password" name="user_pw"></span>
+        </li>
+        <li>
+            <input type="submit" class="loginbtn" value="조회하기">
+        </li>
+        <li>※ 주문번호를 잊으신 경우, 고객센터로 문의하여 주시기 바랍니다.</li>
+    </ul>
+</div>

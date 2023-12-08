@@ -1,0 +1,81 @@
+<script src="./js/user_member.js?v=12" defer></script>
+<script src="//d1p7wdleee1q2z.cloudfront.net/post/search.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/user_member.css?v=1">
+<meta charset="utf-8">
+<form id="join" method="post" action="memberok.php" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="m_agree1" value="">
+<input type="hidden" name="m_agree2" value="">
+<div class="member2">
+    <div>
+        <div>MEMBER-SHIP</div>
+        <ul>
+            <li>가입완료</li>
+            <li><img src="./images/step_on.png"></li>
+            <li>정보입력</li>
+            <li><img src="./images/step_on.png"></li>
+            <li>이용약관 동의</li>
+        </ul>
+    </div>
+    <ol class="memberol">
+        <ul class="memberbox">
+            <li>기본정보</li>
+        </ul>
+
+        <ul>
+            <li class="id2">아이디</li> 
+            <input class="input1" type="text" name="m_userid">
+            <input class="input2" type="button" value="중복체크" onclick="memberid_ck()">  
+            <a class="yu">※ 아이디는 최소 5자 이상 입니다.</a>
+        </ul>
+
+        <ul>
+            <li class="id2">패스워드</li> 
+            <input class="input1" type="password" name="m_userpw">
+            <a class="yu">※ 패스워드는 최소 6자 이상 입니다.</a>
+        </ul>
+
+        <ul>
+        <li class="id2">동일한 패스워드</li>
+        <input class="input1" type="password" id="checkpw">
+        <a class="yu">※ 동일한 패스워드를 입력하세요.</a>
+        </ul>
+
+        <ul>
+        <li class="id2">고객명</li>  
+        <input class="input1" type="text" name="m_usernm">
+        </ul>
+
+        <ul>
+        <li class="id2">이메일</li> 
+        <input class="input1" type="text" name="m_usermail">
+        <select class="input3" id="mselect" onchange="mail_input(this.value)">
+            <option value="">직접입력</option>
+            <option value="naver.com">naver.com</option>
+            <option value="nate.com">nate.com</option>
+            <option value="google.com">google.com</option>
+        </select>
+        <input type="checkbox" name="m_email" value="Y"><a class="yu">정보/이메일 메일 수신에 동의합니다.</a>
+        </ul>
+        
+        <ul>
+        <li class="id2">연락처</li>
+        <input class="input1" type="text" name="m_usertel" maxlength="11">
+        <a class="yu">※ "-" 없이 입력하세요</a>
+        <input type="checkbox" name="m_sms" value="Y"><a class="yu">정보/이벤트 SMS 수신에 동의합니다.</a>
+        </ul>
+
+        <ul>
+        <li class="id2">주소</li>
+        <input type="text" name="m_post" class="input6 postcodify_postcode5" maxlength="5" readonly>
+        <input class="input5" type="button" value="우편번호 검색" id="addpost"><br>
+        <input type="text" name="m_road" class="input4 postcodify_address" readonly><br>
+        <input class="input4" type="text" name="m_addr">
+        </ul>
+    
+        <ol class="bxbx">
+        <input type="button" value="회원가입" class="bx1" onclick="member_fn()">
+        <input type="button" value="가입취소" class="bx2" onclick="canc()">
+        </ol>
+    </ol>   
+</div>
+</form>

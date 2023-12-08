@@ -1,0 +1,75 @@
+.jj{
+    position: absolute;
+    top:100px;
+    width: 100%;
+    height: 500px;
+    display: none;
+    z-index: 2;
+}
+
+#joinform{
+    margin: 0 auto;
+    height: auto;
+    width: 340px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#joinform > span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#joinform > label{
+    margin-bottom: 20px;
+}
+#joinform > span:nth-of-type(2){
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.joincheck{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 3px;
+}
+.joinid{
+    width: 160px;
+    height: 40px;
+}
+.joinck1{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: rgb(94,94,94);
+    color: white;
+    border: none;
+}
+.join2tx{
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+}
+.join3tx{
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.joincon{
+    width: 280px;
+    height: 45px;
+    background-color: rgb(94,94,94);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}

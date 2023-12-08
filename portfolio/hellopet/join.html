@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="./css/join.css?v=<?php echo $v?>">
+<script src="./js/join.js?v=<?php echo $v?>"></script>
+<div class="jj" id="jj">
+<form id="joinform" method="post" action="./m_join.php">
+    <span>MEMBER JOIN</span>
+    <span id="jox"onclick="jox()">X</span>
+    <label>
+    <input type="checkbox" class="joincheck">전체동의
+    </label>
+    <label>
+    <input type="checkbox" class="joincheck" name="agree1" value="Y">서비스 약관에 동의
+    </label>
+    <label>
+    <input type="checkbox" class="joincheck" name="agree2" value="Y">이메일 정책 약관에 동의
+    </label>
+    <label>
+    <input type="checkbox" class="joincheck" name="agree3" value="Y">개인정보처리 약관에 동의
+    </label>
+    <div>
+    <input type="text" name="m_id" class="joinid" placeholder="아이디를 입력하세요">
+    <input type="button" class="joinck1" id="m_userid" value="중복체크" onclick="memberid_ck()" >
+    </div>
+    <input type="text" name="m_name" class="join2tx" placeholder="고객명을 입력해 주세요">
+    <input type="text" name="m_passwd" class="join2tx" placeholder="패스워드를 입력하세요 (최소 5자 이상)">
+    <input type="text" class="join2tx" placeholder="동일한 패스워드를 입력하세요">
+    <input type="text" name="m_hp" class="join2tx" placeholder='연락처를 입력하세요 "-" 미포함' maxlength="11">
+    <div>
+    <input type="text" name="m_email" class="join3tx" placeholder="이메일 주소를 입력하세요">
+    </div>
+    보안코드 번호 
+    <input type="text" name="m_security" class="join2tx">
+    <input type="text" name="hellopet" class="join2tx" placeholder="보안코드 6자리를 입력하세요" maxlength="6">
+    <input type="button" value="회원가입" class="joincon" onclick="joina()">
+
+</form>
+</div>

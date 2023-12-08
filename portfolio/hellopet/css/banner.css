@@ -1,0 +1,10 @@
+.ba_div{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.ba_div > img{
+    width: 100%;
+    height: 350px;
+}
